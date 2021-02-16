@@ -79,9 +79,9 @@
                         echo"<p> $DUI No es un numero de DUI valido ingresa de nuevo con un guión </p>";
                     }
                     if (preg_match($patron, $edad)) {
-                    echo "<p>La $edad son sólo números.</p>\n";
+                    echo "<p>La edad $edad son sólo números.</p>\n";
                     } else {
-                    echo "<p>La $edad no son números por favor ingresa tu edad en numeros.</p>\n";
+                    echo "<p>La edad $edad no son números por favor ingresa tu edad en numeros.</p>\n";
                     }
                     if (preg_match($patron2, $cadena)) {
                         echo "<p>La cadena $cadena son sólo letras minúsculas o mayúsculas.</p>\n";
